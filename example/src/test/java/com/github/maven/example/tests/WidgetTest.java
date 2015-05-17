@@ -36,5 +36,8 @@ public class WidgetTest {
 		assertFalse(widget.isEnabled());
 		widget.setEnabled(true);
 		assertTrue(widget.isEnabled());
+		//Hello just testing the change
+		widget.setEnabled(true);
+		assertTrue(widget.isEnabled());
 	}
 }
